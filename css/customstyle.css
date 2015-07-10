@@ -292,7 +292,13 @@ p#spaces-rent-title{
 	margin-top: 20px;
 }
 
+.top-navigation .navbar-right{
+	float: right;
+}
 
+.navbar-header{
+	width: 100%;
+}
 @media (max-width: 769px){
 	.ibox-content-filter{
 		padding-bottom: 20px;
@@ -316,5 +322,9 @@ p#spaces-rent-title{
 		display: block;
 		margin-left: 15px;
 		margin-right: 15px;
+	}
+
+	.navbar-top-links .dropdown-messages{
+		  margin-left: -54px;
 	}
 }
